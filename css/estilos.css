@@ -1,0 +1,860 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.4;
+}
+.header {
+    font-size: 12px;
+    font-weight: 700;
+    height: 3rem;
+    color: #ef4958;
+    background-color: rgb(57, 57, 57);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+   
+}
+.nav {
+    width: 25%;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.nav__lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+ 
+}
+a {
+    text-decoration: none;
+    color: #FF4655;
+    font-size: 16px;
+    width: fit-content;
+}
+
+ .valorant {
+     background-image: url(../imagenes/16244426663318.jpg);
+     background-size: 100%;
+     height: 600px;
+     background-repeat: no-repeat;
+     display: grid;
+     min-height: 600px;
+     padding-top: 5%;
+     padding-left: 5%;
+     grid-template-columns: 30% 65%;
+     grid-template-rows: 30% 65%;
+     grid-template-areas:
+         "ele1 ele1"
+         "ele2 ele3";
+}
+.valorant__logo {
+    display: flex;
+    grid-area: ele1;
+    width: fit-content;
+    padding-left: 30%;
+    transform: scale(1.5);
+    height: 65%
+    
+}
+.valorant__texto{
+    font-size: 23px;
+    color: #fdfdfd;
+    text-shadow:1px 2px black;
+    grid-area: ele2;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    
+    
+}
+.valorant__iframe{ 
+    padding-left: 15%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    grid-area: ele3;
+}
+
+ul {
+    list-style: none
+}
+
+.apex {
+    background-image: url(../imagenes/poster.jpg.adapt_.crop16x9.1920w.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding-bottom: 10rem;
+    display: grid;
+    padding-top: 3%;
+    flex-direction: column;
+    min-height: 600px;
+    padding-top: 5%;
+    padding-left: 5%;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 25% 65%;
+    grid-template-areas:
+        "ele1 ele1"
+        "ele2 ele3";
+}
+.apex__logo {
+    background-size: 100%;
+    margin-left: 43%;
+    margin-right: 47%;
+    padding-top: 1rem;
+    grid-area: ele1;
+}
+
+.apex__texto{
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    grid-area: ele3;
+}
+.apex__iframe {
+    padding: 1rem 1rem 1rem 1rem;
+    grid-area: ele2;
+}
+
+.champions{
+     background-image: url(../imagenes/afkgaming_import_media_images_63524-805285117be359e80eab95e8095fbc40.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     width: 100%;
+     display: grid;
+     min-height: 600px;
+     padding-top: 5%;
+     padding-left: 10%;
+     grid-template-columns: 40% 45%;
+     grid-template-rows: 10% 70%;
+     grid-template-areas:
+         "ele1 ele1"
+         "ele2 ele3";
+   
+}
+
+.champions__link{
+    display: flex;
+    width: fit-content;
+    margin-left: 35%;
+    text-shadow:2px 1px 1px #fdfdfd;
+    font-size: 24px;
+    grid-area: ele1;
+      
+}
+
+.champions__texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+    color:#fdfdfd;
+    text-shadow:1px 2px  black; 
+    grid-area: ele2;
+}
+.champions__iframe{
+    display: flex;
+    padding: 3%;
+    grid-area: ele3;
+    
+}
+.algs{
+    display: grid;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 15% 90%;
+    grid-template-areas:
+     "ele1 ele1"
+     "ele2 ele3";
+    background-image: url(../imagenes/apex-legends-pre-season-invitational-feature.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.algs__link {
+    display: flex;
+    margin-left: 32%;
+    text-shadow: 1px 1px rgb(249, 248, 248);
+    color: black;
+    font-size: 24px;
+    grid-area: ele1;
+   
+}
+
+.algs__texto {
+    color: white;
+    font-weight: 400;
+    text-shadow:2px 2px black;
+    font-size: 18px;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    grid-area: ele3;
+}
+.algs__iframe{
+        grid-area: ele2;
+        padding-right: 5%;
+    }
+
+
+.logo {
+    background-image: url(../imagenes/Valorant_2022_E4A2_SocialCover_4K_3840x2160_MB01.jpg);
+    background-size: 100%;
+    display: flex;
+    
+    
+}
+
+.titulo__uno{
+    font-size: 35px;
+}
+
+.parrafo__uno{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/ValorantWallpaper_Ascent_galleryimage.jpg);
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 35%;
+    padding: 2rem 50% 1rem 1rem;
+    width: 100%;
+    height: 500px;
+
+}
+
+.titulo__dos{
+    font-size: 36px;
+    padding-left: 70%;
+
+}
+.p__dos{
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    padding-left: 70%;
+    padding-top: 1rem;
+}
+
+.parrafo__dos{
+    display: flex;
+    background-image: url(../imagenes/VALORANT_phx_jett_2.jpg);
+    height: 460px;
+    width: 100%;
+    background-size: 100%;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    flex-direction: column;
+}
+
+.parrafo__tres{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/ValorantWallpaper_Bind_galleryimage.jpg);
+    background-position-x: 50%;
+    background-position-y: 55%;
+    height: 460px;
+    width: 100%;
+    background-size: 100%;
+    padding-top: 4rem;
+    padding-left: 2rem;
+
+}
+.titulo__tres{
+    font-size: 36px;
+    padding-left: 1rem;
+
+}
+.p__tres{
+    padding-right: 60%;
+    padding-left: 1rem;
+}
+
+.iframeval{
+    display: flex;
+    width: 100%;
+    background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg);
+}
+.boton{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ef4958;
+    width: 100%;
+    height: 20%;
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+}
+.apex__conoce{
+    background-image: url(../imagenes/Apex-Legends-Defiance-Featured.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    
+}
+.apex__parrafo1 {
+   display: flex;
+   flex-direction: column;
+    width: 40%;
+    padding-left: 2rem;
+    color: white;
+    font-size: 20px;
+    text-shadow:1px 2px 1px black;
+    
+    
+    
+   }
+.apex__titulo1 {
+    font-size: 36px;
+    padding-top: 10%;
+    padding-left: 2rem;
+    color: white;
+    text-shadow: 1px 2px 1px black;
+    
+}
+ 
+.apex__frame {
+    background-image: url(../imagenes/thumb-1920-992033.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-size: 100%;
+    background-position-y: 40%
+}
+.apex__descubre {
+    background-image: url(../imagenes/apex-screenshot-world-overview.jpg.adapt.crop16x9.818p.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+     background-position-y: 50%
+}
+.apex__titulo2 {
+    font-size: 36px;
+    padding-top: 2rem;
+    width: 100%;
+    padding-left: 55%;
+    padding-right: 4rem;
+    text-shadow:1px 1px 1px #fdfdfd;
+}
+.apex__parrafo2{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 55%;
+    padding-right: 2rem;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow:1px 1px 2px rgb(255, 255, 255);
+}
+.apex__controla{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/apex-section-bg-battle-pass-defiance-season-top-hero-xl.jpg.adapt.1456w.jpg);
+    background-position-y:35%;
+    height: 500px;
+    background-size: 100%;
+}
+.apex__titulo3{
+    margin-left: 30%;
+    font-size: 36px;
+    padding-top: 2rem;
+    width: 100%;
+    text-shadow:1px 1px 1px #fdfdfd;
+}
+.apex__parrafo3{
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow:1px 1px 2px rgb(255, 255, 255);
+    padding-left: 23%;
+    padding-right: 20%;
+    padding-top: .5rem;
+}
+.iframeapex {
+    margin-left: 30%;
+}
+.boton__apex{
+    color: white;
+    background-color: black;
+    justify-content: center;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-left: 45%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.vct {
+    background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg);
+    background-size: 100%;
+    color:white;
+    display: grid;
+    min-height: 600px;
+    padding-top: 7%;
+    padding-left: 3%;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 15% 70%;
+    grid-template-areas:
+        "ele1 ele1"
+        "ele2 ele3";    
+}
+.vct__titulo {
+    display: grid;
+    width: 200%;
+    padding-left: 40%;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: 36px;
+    grid-area: ele1;
+    
+}
+.vct__parrafo {
+    font-size: 18px;
+    color: white;
+    padding-left: 2%;
+    text-shadow:1px 1px 1px black;
+    grid-area: ele2;
+}
+.vct__iframe {
+    float: right;
+    padding-right: 2%;
+    padding-left: 3%;
+    grid-area: ele3;
+}
+
+.galeria {
+    display: grid;
+    height: 700px;
+    min-height: 650px;
+    padding-top: 2%;
+    grid-template-columns: 40% 40%;
+    grid-template-rows:10% 30% 30% 10%;
+    grid-template-areas:
+    "ele1 ele1"
+    "ele2 ele3"
+    "ele4 ele5"
+    "ele6 ele6";
+    background-color: #101C28;
+    color: #fdfdfd;
+    align-items: stretch;
+    justify-content: center;
+    gap: 5px;
+}
+.galeria img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+}
+
+.galeria__item1{
+    
+    grid-area: ele2;
+}
+.galeria__item2{
+    width: 20%;      
+    grid-area: ele3;
+}
+.galeria__item3{
+    width: 70px;
+    grid-area: ele4;
+}
+.galeria__item4{
+    width: 200px;
+    grid-area: ele5;
+}
+
+.galeria__titulo{
+
+    font-size: 24px;
+    width: fit-content;
+    padding-left: 37%;
+    color: white;
+    text-shadow:1px 2px 1px #000000;
+    grid-area: ele1;
+} 
+.galeria__detalle {
+    padding-left: 6%;
+    padding-top: 2%;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    grid-area: ele6;
+}
+
+.ags{
+    background-image: url(../imagenes/algs-2-0-featured-image.jpg.adapt.crop16x9.1023w.jpg);
+    background-size: 100%;
+    height: 700px;
+    text-shadow:1px 1px  rgb(5, 5, 5);
+    display: grid;
+    min-height: 600px;
+    padding-top: 3%;
+    padding-left: 3%;
+    grid-template-columns: 55% 35%;
+    grid-template-rows: 10% 70%;
+    grid-template-areas:
+        "ele1 ele1"
+        "ele2 ele3"; 
+}
+.ags__titulo{
+    display: flex;
+    justify-content: center;
+    padding-right: 3%;
+    padding-top: 2%;
+    font-size: 35px;
+    color: rgb(255, 254, 254);
+    text-shadow:1px 1px  rgb(5, 4, 4);
+    grid-area: ele1;
+}
+.ags__parrafo{
+    padding-top: 6%;
+    padding-left: 3%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow:2px 2px 2px #494949;
+    grid-area: ele3;
+}
+.ags__iframe{
+    padding-top: 5%;
+    grid-area: ele2;
+}
+    
+.ags__reglas{
+    text-shadow:2px 2px 2px #000000;
+    padding-left: 3%;
+    font-size: 20px;
+}
+.nav__item--oculto {
+    display: none;
+}
+.header__icono {
+    display: none;
+    font-size: 18px;
+}
+
+    /* ESPACIO PARA CODEAR PAGINA NEWS PENDIENTE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESPACIO PARA CODEAR PAGINA NEWS PENDIENTE */
+
+
+.formulario {
+    display: block;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    background-color: #ef4958;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+.enviar {
+    display: flex;
+    color: white;
+    background-color: #ef4958;
+    font-size: 16px;
+    padding-left: 1rem;
+    width: 75px;
+
+
+}
+.footer {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    height: 4rem;
+    color: #ef4958;
+    background-color: rgb(57, 57, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 480px) {
+    body {
+        background: rgb(9,9,121);
+        background: linear-gradient(90deg, rgba(9,9,121,0.9752275910364145) 14%, rgba(0,212,255,1) 67%, rgba(145,46,62,1) 90%);
+    }
+    .header {
+        flex-direction: row;
+        font-size: 10px;
+        padding-left: 1rem;
+        justify-content: space-around;
+    }
+
+   
+    
+    .valorant{
+        width: 100%;
+        background: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 150px 320px;
+        grid-template-areas: 
+            "ele1"
+            "ele2"
+            "ele3";
+        padding-top: 3%;
+        padding-left: 0%;
+        min-height: max-content; 
+        
+    
+    }
+    .valorant__logo{
+        padding-left: 15%;
+        transform: scale(1);
+    }
+    .valorant__texto{
+        color: #ffffff;
+        width: 100%;
+        align-items: unset;
+        font-weight: 400;
+        padding: 1rem;
+        margin: 0;
+        font-size: 20px;
+    }
+    .valorant__iframe{
+        display: flex;
+        width: 480px;
+        padding:0;
+       
+    }
+    .apex {
+        width: 100%;
+        background: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 300px 250px;
+        grid-template-areas: 
+            "ele1"
+            "ele2"
+            "ele3";
+        padding-top: 10%;
+        padding-left: 0%;
+        padding-bottom: 1%;
+        min-height: max-content;
+    }
+    .apex__logo {
+        margin-left: 40%;
+    }
+    .apex__iframe {
+        padding: 0;
+        padding-top: 1%;
+        width: 480px;
+    }
+    .apex__texto {
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    .champions {
+        width: 100%;
+        background: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 320px 300px;
+        grid-template-areas: 
+            "ele1"
+            "ele2"
+            "ele3";
+        padding: 0%;
+        min-height: max-content;
+    }
+    .champions__link {
+        width: 100%;
+        margin: 5%;
+        color: red;
+    }
+    .champions__texto {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .champions__iframe {
+        padding: 0;
+        width: 480px;
+    }
+    .algs {
+        width: 100%;
+        background: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 320px 320px;
+        grid-template-areas: 
+            "ele1"
+            "ele2"
+            "ele3";
+        padding: 0%;
+        padding-top: 3%;
+        min-height: max-content;
+
+    }
+    .algs__link {
+        color: red;
+        width: 100%;
+        margin: 3%;
+    }
+    .algs__iframe{
+        padding: 0;
+        width: 480px;
+    }
+    .algs__texto{
+        padding: 1rem;
+        font-size: 18px;
+    }
+    
+    .footer {
+        flex-direction: column;
+        height: 3rem;
+
+    }
+    .vct {
+        background: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 75px 320px 300px;
+        grid-template-areas: 
+            "ele1"
+            "ele2"
+            "ele3";
+        padding-top: 5%;
+        padding-left: 0;
+        min-height: max-content;
+    }
+    .vct__titulo{
+        width: max-content;
+        padding-left: 20%;
+        padding-top: 5%;
+        font-size: 24px;
+    }
+    .vct__parrafo{
+        width: fit-content;
+        font-size: 15px;
+        padding-right: 5%;
+        padding-left: 2%;
+    }
+    .vct__iframe{
+        float: none;
+        padding: 2%;
+        width: 480px;
+        height: 300px;
+    }
+    .galeria{
+        background: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 75px 150px 200px 170px 170px;
+        grid-template-areas: 
+            "ele1"
+            "ele2"
+            "ele3"
+            "ele4"
+            "ele5"
+            "ele6";
+        padding-top: 5%;
+        padding-left: 1%;
+        height: fit-content;
+        align-items: center;
+    }
+    .galeria img{
+        margin-left: 15%;
+    }
+    .galeria__titulo{
+        padding-left: 25%;
+    }
+    .ags{
+        background: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 300px 300px;
+        grid-template-areas: 
+            "ele1"
+            "ele2"
+            "ele3";
+        padding-top: 5%;
+        padding-left: 0;
+        min-height:700px;
+    }
+    .ags__titulo{
+        font-size: 26px;
+    }
+    .ags__parrafo{
+        font-weight: 400;
+    
+    }
+    .ags__iframe{
+        padding: 0;
+        width: 475px;
+        height: 300px;
+    }
+    /* INICIO SIDEBAR  */
+    .nav {
+        position: fixed;
+        z-index: 20;
+    }
+    #sidebar{
+        background-color: #393939f9;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 60%;
+        max-width: 350px;
+        transform: translate(-100%);
+        transition: transform 0.5s;
+        padding: 1rem;
+        
+    }
+    .nav__lista{
+        align-items:unset;
+    }
+    #sidebar .nav__lista{
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-content: flex-start;
+        
+    }
+    #sidebar:target {
+        transform: translateX(0) ;
+    }
+    .nav__item--oculto{
+        display: block;
+    }
+    .header__icono{
+        display: block;
+    }
+}
