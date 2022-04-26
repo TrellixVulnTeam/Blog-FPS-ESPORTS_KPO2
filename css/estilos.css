@@ -770,11 +770,6 @@ ul {
         font-size: 18px;
     }
     
-    .footer {
-        flex-direction: column;
-        height: 3rem;
-
-    }
     .vct {
         background: none;
         grid-template-columns: 100%;
@@ -822,6 +817,8 @@ ul {
         align-items: center;
     }
     .galeria img{
+        max-width: 300px;
+        gap: 1rem;
         margin-left: 15%;
     }
     .galeria__titulo{
@@ -850,6 +847,11 @@ ul {
         padding: 0;
         width: 475px;
         height: 300px;
+    }
+    .footer {
+        flex-direction: column;
+        height: 3rem;
+
     }
     /* INICIO SIDEBAR  */
     .nav {
