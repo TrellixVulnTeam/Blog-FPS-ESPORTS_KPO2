@@ -77,6 +77,22 @@
       width: 100%;
   }
   .frame {
-      background-color: rgba(0, 0, 0, 0.47);
+      background-color: rgba(0, 0, 0, 0.301);
       padding: 2rem;
+  }
+  .vct {
+      background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg);
+      background-size: cover;
+  }
+  .vct__iframe {
+      display: flex;
+  }
+  ul {
+      list-style: none;
+      padding-left:0
+  }
+  .ags {
+      background-image: url(../imagenes/SKWFY5O2ZFEURPVX3GBTZVFUO4.jpg);
+      background-size: cover;
+      background-position: center;
   }

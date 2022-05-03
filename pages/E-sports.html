@@ -5,96 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FPS E-Sports | E-sports</title>
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Bootstrap --> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&family=Roboto:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="https://kit.fontawesome.com/62459b5f75.js" crossorigin="anonymous"></script>
 </head>
-<body>  
-<header class="header">
-        <h1>Tus juegos y competencias favoritas</h1>
-        <a class="header__open" href="#sidebar">
-       <div class="header__icono"><i class="fas fa-bars"></i></div>
-        </a>
-        <nav class="nav" id="sidebar">
-          <ul class="nav__lista">
-            <li class="nav__item"><a href="../index.html">Home</a></li>
-            <li class="nav__item"><a href="Games.html">Games</a></li>
-            <li class="nav__item"><a href="E-sports.html">E-sports</a></li>
-            <li class="nav__item"><a href="News.html">News</a></li>
-            <li class="nav__item"><a href="Contact.html">Contact</a></li>
-            <li class="nav__item nav__item--oculto"><a class="nav_enlace" href="#" >❌</a></li>
+<body> 
+  <div class="container">
+<header>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tus juegos y competencias favoritas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/pages/Games.html">Juegos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/pages/E-sports.html">E-Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/pages/News.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/pages/Contact.html">Contacto</a>
+            </li>
+  </div>
+  </nav>
+  </header>
 
-          </ul>
-        </nav>
-    </header>
-   
-    <section class="vct">
-   <div ><h2 class="vct__titulo">Valorant Champions Tour</h2></div>
-   
-  
- <div class="vct__parrafo"> <p >Valorant Champions Tour es un programa oficial de Riot donde se realizarán torneos, dando visibilidad global a 
+<main class="row m-auto">
+
+  <section class="vct">
+   <div class="text-center mt-3 text-danger"><h2>Valorant Champions Tour</h2></div>
+
+  <div class="row">
+ <div class= "text-light col-6 mt-4 lead">
+   <p >Valorant Champions Tour es un programa oficial de Riot donde se realizarán torneos, dando visibilidad global a 
  las competencias de Valorant. Se celebrarán dos torneos de libre inscripción en 2 regiones: Latinoamérica Norte y Latinoamérica Sur, con cupo limitado por torneo a 128 equipos.</p>
+<ul>
+  <li>LAN: Colombia, Ecuador, México, Venezuela, Centroamérica e islas del caribe.</li>
+  <li>LAS: Argentina, Bolivia, Chile, Paraguay, Perú y Uruguay.</li>
+</ul>
+<p>A continuacion te dejamos el trailer de la primera edicion del VCT,así como tambien las reglas oficiales de cada etapa del circuito competitivo
 
- <p class="vct__parrafo">LAN: Colombia, Ecuador, México, Venezuela, Centroamérica e islas del caribe.
- LAS: Argentina, Bolivia, Chile, Paraguay, Perú y Uruguay.</p>
-
- <p class="vct__parrafo">A continuacion te dejamos el trailer de la primera edicion del VCT,así como tambien las reglas oficiales de cada etapa del circuito competitivo
-
-
- <h3 class="vct__parrafo">Reglamento Oficial:</h3>
-  <ul class="vct__parrafo">
+<h3>Reglamento Oficial:</h3>
+ <ul>
     <li><a href="https://cdn-ggtech.s3.eu-west-3.amazonaws.com/uploads/documents/reglamento-open-qualifier-valorant-challengers.pdf" target="_blank">Valorant Open Challengers Qualifiers</a></li>
     <li><a href="https://cdn-ggtech.s3.eu-west-3.amazonaws.com/uploads/documents/reglamento-open-qualifier-re-valorant-game-changers.pdf" target="_blank">Valorant Changers</a></li>
    <li><a href="https://cdn-ggtech.s3.eu-west-3.amazonaws.com/uploads/documents/reglamento-playoffs-valorant-challengers.pdf" target="_blank">Valorant Challengers-PlayOffs</a></li>
-  </ul>
-</div>
-<iframe class="vct__iframe" width="720" height="400" src="https://www.youtube.com/embed/p3cRHBFzeMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+  </ul></p>
+ </div>
+
+<iframe class="vct__iframe col-6 mt-4" width="620" height="400" src="https://www.youtube.com/embed/p3cRHBFzeMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
  </section>
-
  
- <section class= "galeria">
-  <div class="galeria__titulo"><h3>Galería VCT 2021</h3></div>
-
- <img class="galeria__item1" src="../imagenes/FEF5S5BWQAEE-Zo-1-780x470.jpg">
- <img class="galeria__item2" src="../imagenes/E2qoXaUWEAI45io.jpg">
- <img class="galeria__item3" src="../imagenes/acend-800x400.jpg">
- <img class="galeria__item4" src="../imagenes/640717f48d4b9a9d1b591fb4a56a53c4_640px.jpg">
-
+ <section class="row justify-content-center"><h3 class="mt-5 mb-3 text-center">Galería VCT 2021</h3>
+ <div class="col-8">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../imagenes/acend-800x400.jpg" class="d-block w-100" alt="slide1">
+    </div>
+    <div class="carousel-item">
+      <img src="../imagenes/E2qoXaUWEAI45io.jpg" class="d-block w-100" alt="slide2">
+    </div>
+    <div class="carousel-item">
+      <img src="../imagenes/FEF5S5BWQAEE-Zo-1-780x470.jpg" class="d-block w-100" alt="slide3">
+    </div>
+    <div class="carousel-item">
+      <img src="../imagenes/640717f48d4b9a9d1b591fb4a56a53c4_640px.jpg" class="d-block w-100" alt="slide4">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Atrás</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div></div>
  <p>
- <h4 class="galeria__detalle">Mantente al tanto con las novedades del circuito competitivo y de las actualizaciones del juego, haciendo click <a href="News.html" target="_blank" >AQUÍ</a></h4>
+ <h4 class="">Mantente al tanto con las novedades del circuito competitivo y de las actualizaciones del juego, haciendo click <a href="News.html" target="_blank" >AQUÍ</a></h4>
 </p>
  </section>
 
 <section class="ags">
-  <h2 class="ags__titulo">Apex Global Series</h2>
-
-  <iframe class="ags__iframe" width="620" height="400" src="https://www.youtube.com/embed/6a4rnd-BTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+  <div class="frame">
+  <div class="text-center mt-3 text-light">
+  <h2>Apex Global Series</h2>
+</div>
+<div class="row">
+  <iframe class="col-6 mt-3" width="720" height="400" src="https://www.youtube.com/embed/6a4rnd-BTns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <p class="ags__parrafo">El Apex Global Series Championship está siendo otro soplo de aire fresco al battle royale de Respawn. 
+
+   <p class="ags__parrafo text-light col-5 mt-5 lead">El Apex Global Series Championship está siendo otro soplo de aire fresco al battle royale de Respawn. 
   Electronic Arts celebra este evento para medir a los mejores equipo del panorama de ‘Apex Legends’.
   De partida, el Apex Global Series Championship dio su pistoletazo de partida con una pool de premios de 1 millón de euros de base. 
     Nuevamente, dejamos a continuación el trailer de la primera edicion de la ALGS, así como también las reglas del circuito
   competitivo:
-    <a class="ags__reglas" href="https://battlefy.com/apex-legends-global-series-year-2/official-rules" target="_blank">Reglas Oficiales ALGS</a>
+    <a href="https://battlefy.com/apex-legends-global-series-year-2/official-rules" target="_blank">Reglas Oficiales ALGS</a>
   </p>
-</section>
-
-<div>
-<section class= "galeria">
-  <h3 class="galeria__titulo">Galeria ALGS 2021</h3>
-  <img class="galeria__items" src="../imagenes/apex-legends-pre-season-invitational-feature.jpg">
-  <img class="galeria__items" src="../imagenes/apex-1280x720.jpg" >
-  <img class="galeria__items" src="../imagenes/600px-Taesik_at_Apex_Legends_Preseason_Invitational.jpg">
-  <img class="galeria__items" src="../imagenes/imperialhal_at_apex_legends_preseason_invitational-1536x1024.jpg_1493968204.jpg">
-</section>
 </div>
-</body> 
+</section>
 
-<footer class="footer">
-  2022 All rights reserved© WEBDEVRL
+<section class="row justify-content-center mb-4"><h3 class="mt-5 mb-3 text-center">Galería AGLS 2021</h3>
+  <div class="col-8">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../imagenes/600px-Taesik_at_Apex_Legends_Preseason_Invitational.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagenes/600px-Taesik_at_Apex_Legends_Preseason_Invitational.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagenes/imperialhal_at_apex_legends_preseason_invitational-1536x1024.jpg_1493968204.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagenes/apex-1280x720.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div></div>
+  </section>
+
+</body> 
+</div> 
+<footer class="row justify-content-center bg-danger">
+  <div class="col-md-4 m-auto text-center">
+    <p><strong> All rights reserved© WEBDEVRL</strong></p>
+  </div>
 </footer>
 
 
