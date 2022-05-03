@@ -9,7 +9,7 @@
 	        animation: slide-right 2s ease-in-out infinite alternate ;
 }
 
- @-webkit-keyframes slide-right {
+@-webkit-keyframes slide-right {
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
