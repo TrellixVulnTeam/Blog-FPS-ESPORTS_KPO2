@@ -23,64 +23,71 @@ a {
     &__paragraph {
         display: flex;
         position: absolute;
-        top:58%;
+        top: 58%;
         padding-top: 1.5rem;
-     
+    }
     &__tarjeta {
-      background-image: url(../imagenes/wallpapersfade-valorant_1920x1080.jpg);
-      background-size: cover;
-
+        background-image: url(../imagenes/wallpapersfade-valorant_1920x1080.jpg);
+        background-size: cover;
+    }
     &__texto {
         display: flex;
         justify-content: center;
         align-items: center;
         color: #FF4655;
-  }}}}
+    }
+  }
  
   .apex {
     
     &__tarjeta {
         background-image: url(../imagenes/apex-section-bg-battle-pass-defiance-season-top-hero-xl.jpg.adapt.1456w.jpg);
         background-size: cover;
-
+    }
     &__logo {
       transform: scale(0.5);
-  
+    }
     &__texto {
         display: flex;
         justify-content: center;
         align-items: center;
-  }}}}
+       // VARIABLE APLICADA A COLOR
+        color:$bgColor 
+        // VARIABLE APLICADA A COLOR
+    }
+      }
 
   .champions {
   
     &__tarjeta {
       background-image: url(../imagenes/100832.jpg);
       background-size: cover;
-  
+   }
     &__texto {
       padding: 3rem;
- 
+   }
     &__iframe {
       width: 100%;
-  }}}}
+   }
+     }
 
   .algs {
     &__tarjeta {
       background-image: url(../imagenes/apex-legends-pre-season-invitational-feature.jpg);
       background-size: cover;
       background-position: center;
-  
+   }
     &__texto {
     padding: 2rem;
-  
+   }
     &__iframe {
       width: 100%;
-  
+   }   
     &__frame {
       background-color: rgba(0, 0, 0, 0.301);
       padding: 2rem;
-  }}}}}
+   }
+     }
 
   //  PÁGINA E-SPORTS
   .vct {

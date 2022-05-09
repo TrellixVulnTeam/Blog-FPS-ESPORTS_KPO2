@@ -1,1 +1,84 @@
-.slide-right{-webkit-animation:slide-right 2s ease-in-out infinite alternate;animation:slide-right 2s ease-in-out infinite alternate}@keyframes slide-right{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(2%);transform:translateX(2%)}}a{text-decoration:none}.valorant{display:flex;flex-direction:column}.paragraph__val{display:flex;position:absolute;top:58%;padding-top:1.5rem}.tarjeta__val{background-image:url(./imagenes/9bebe22b2f3876373118e8722004e7f5_640px.jpg);background-size:cover}.val__texto{display:flex;justify-content:center;align-items:center;color:#ff4655}.tarjeta__apex{background-image:url(../imagenes/apex-section-bg-battle-pass-defiance-season-top-hero-xl.jpg.adapt.1456w.jpg);background-size:cover}.apex__logo{transform:scale(0.5)}.apex__texto{display:flex;justify-content:center;align-items:center}.tarjeta__vct{background-image:url(../imagenes/100832.jpg);background-size:cover}.champions__texto{padding:3rem}.champions__iframe{width:100%}.tarjeta__algs{background-image:url(../imagenes/apex-legends-pre-season-invitational-feature.jpg);background-size:cover;background-position:center}.algs__texto{padding:2rem}.algs__iframe{width:100%}.frame{background-color:rgba(0,0,0,.301);padding:2rem}.vct{background-image:url(../imagenes/ValorantWallpaper_johnslatte2.jpg);background-size:cover}.vct__iframe{display:flex}ul{list-style:none;padding-left:0}.ags{background-image:url(../imagenes/SKWFY5O2ZFEURPVX3GBTZVFUO4.jpg);background-size:cover;background-position:center}
+.slide-right {
+  -webkit-animation: slide-right 2s ease-in-out infinite alternate;
+  animation: slide-right 2s ease-in-out infinite alternate; }
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  100% {
+    -webkit-transform: translateX(2%);
+    transform: translateX(2%); } }
+
+a {
+  text-decoration: none; }
+
+.valorant__paragraph {
+  display: flex;
+  position: absolute;
+  top: 58%;
+  padding-top: 1.5rem; }
+
+.valorant__tarjeta {
+  background-image: url(../imagenes/wallpapersfade-valorant_1920x1080.jpg);
+  background-size: cover; }
+
+.valorant__texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF4655; }
+
+.apex__tarjeta {
+  background-image: url(../imagenes/apex-section-bg-battle-pass-defiance-season-top-hero-xl.jpg.adapt.1456w.jpg);
+  background-size: cover; }
+
+.apex__logo {
+  transform: scale(0.5); }
+
+.apex__texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1c8761; }
+
+.champions__tarjeta {
+  background-image: url(../imagenes/100832.jpg);
+  background-size: cover; }
+
+.champions__texto {
+  padding: 3rem; }
+
+.champions__iframe {
+  width: 100%; }
+
+.algs__tarjeta {
+  background-image: url(../imagenes/apex-legends-pre-season-invitational-feature.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.algs__texto {
+  padding: 2rem; }
+
+.algs__iframe {
+  width: 100%; }
+
+.algs__frame {
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 2rem; }
+
+.vct {
+  background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg);
+  background-size: cover; }
+
+.vct__iframe {
+  display: flex; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+
+.ags {
+  background-image: url(../imagenes/SKWFY5O2ZFEURPVX3GBTZVFUO4.jpg);
+  background-size: cover;
+  background-position: center; }
