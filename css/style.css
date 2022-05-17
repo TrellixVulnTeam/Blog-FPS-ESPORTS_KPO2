@@ -16,12 +16,11 @@ a {
 .valorant__paragraph {
   display: flex;
   position: absolute;
-  top: 58%;
-  padding-top: 1.5rem; }
+  top: 59%;
+  padding-top: 1.3rem; }
 
 .valorant__tarjeta {
-  background-image: url(../imagenes/wallpapersfade-valorant_1920x1080.jpg);
-  background-size: cover; }
+  background-image: url(../imagenes/wallpapersfade-valorant_1920x1080.jpg); }
 
 .valorant__texto {
   display: flex;
@@ -29,9 +28,11 @@ a {
   align-items: center;
   color: #FF4655; }
 
+.valorant__iframe {
+  box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.523); }
+
 .apex__tarjeta {
-  background-image: url(../imagenes/apex-section-bg-battle-pass-defiance-season-top-hero-xl.jpg.adapt.1456w.jpg);
-  background-size: cover; }
+  background-image: url(../imagenes/apex-section-bg-battle-pass-defiance-season-top-hero-xl.jpg.adapt.1456w.jpg); }
 
 .apex__logo {
   transform: scale(0.5); }
@@ -40,11 +41,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1c8761; }
+  color: #1c3587; }
+
+.apex__iframe {
+  box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.523); }
 
 .champions__tarjeta {
-  background-image: url(../imagenes/100832.jpg);
-  background-size: cover; }
+  background-image: url(../imagenes/100832.jpg); }
 
 .champions__texto {
   padding: 3rem; }
@@ -54,7 +57,6 @@ a {
 
 .algs__tarjeta {
   background-image: url(../imagenes/apex-legends-pre-season-invitational-feature.jpg);
-  background-size: cover;
   background-position: center; }
 
 .algs__texto {
@@ -67,9 +69,24 @@ a {
   background-color: rgba(0, 0, 0, 0.301);
   padding: 2rem; }
 
+.juegos p {
+  font-size: 20px; }
+
+.juegos img {
+  transform: scale(0.7);
+  filter: drop-shadow(0 0 10px rgba(254, 254, 254, 0.841)); }
+
+.juegos .tarjeta__texto {
+  border-radius: 10px; }
+
+.juegos__tarjeta {
+  background-image: url(../imagenes/Yoru_Killjoy_1920x1080.jpg); }
+
+.juegos__frame {
+  transform: scale(0.7); }
+
 .vct {
-  background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg);
-  background-size: cover; }
+  background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg); }
 
 .vct__iframe {
   display: flex; }
@@ -80,5 +97,26 @@ ul {
 
 .ags {
   background-image: url(../imagenes/SKWFY5O2ZFEURPVX3GBTZVFUO4.jpg);
-  background-size: cover;
   background-position: center; }
+
+.backgroundTemplate, .valorant__tarjeta, .apex__tarjeta, .champions__tarjeta, .algs__tarjeta, .vct, .ags {
+  background-size: cover; }
+
+.gallery {
+  color: #EE584B;
+  font-size: 30px;
+  text-shadow: 1px 2px 2px black; }
+
+.github {
+  background-color: #DD7933;
+  margin: 0 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px; }
+
+.instagram {
+  background-color: #C01C7D;
+  margin: 0 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px; }

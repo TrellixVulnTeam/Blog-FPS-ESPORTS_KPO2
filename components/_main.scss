@@ -17,18 +17,18 @@
 a {
         text-decoration: none;
     }
-
+// PAGINA HOME
 .valorant {
         
     &__paragraph {
         display: flex;
         position: absolute;
-        top: 58%;
-        padding-top: 1.5rem;
+        top: 59%;
+        padding-top: 1.3rem;
     }
     &__tarjeta {
         background-image: url(../imagenes/wallpapersfade-valorant_1920x1080.jpg);
-        background-size: cover;
+        @extend .backgroundTemplate;
     }
     &__texto {
         display: flex;
@@ -36,13 +36,16 @@ a {
         align-items: center;
         color: #FF4655;
     }
+    &__iframe{
+      box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.523);
+    }
   }
  
   .apex {
     
     &__tarjeta {
         background-image: url(../imagenes/apex-section-bg-battle-pass-defiance-season-top-hero-xl.jpg.adapt.1456w.jpg);
-        background-size: cover;
+        @extend .backgroundTemplate;
     }
     &__logo {
       transform: scale(0.5);
@@ -55,13 +58,17 @@ a {
         color:$bgColor 
         // VARIABLE APLICADA A COLOR
     }
+    &__iframe {
+      box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.523);
+
+    }
       }
 
   .champions {
   
     &__tarjeta {
       background-image: url(../imagenes/100832.jpg);
-      background-size: cover;
+      @extend .backgroundTemplate;
    }
     &__texto {
       padding: 3rem;
@@ -74,7 +81,7 @@ a {
   .algs {
     &__tarjeta {
       background-image: url(../imagenes/apex-legends-pre-season-invitational-feature.jpg);
-      background-size: cover;
+      @extend .backgroundTemplate;
       background-position: center;
    }
     &__texto {
@@ -89,10 +96,33 @@ a {
    }
      }
 
+    //  PAGINA JUEGOS
+  .juegos {
+    p {
+      font-size: 20px;
+    }
+
+    img {
+      transform: scale(0.7);
+     filter: drop-shadow(0 0 10px rgba(254, 254, 254, 0.841));
+   }
+    .tarjeta__texto {
+      border-radius: 10px;
+   }
+    &__tarjeta {
+      background-image: url(../imagenes/Yoru_Killjoy_1920x1080.jpg);
+   }
+    &__frame {
+      transform: scale(0.7);
+      
+   }
+  
+}
+
   //  PÁGINA E-SPORTS
   .vct {
       background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg);
-      background-size: cover;
+      @extend .backgroundTemplate;
   }
   .vct__iframe {
       display: flex;
@@ -103,6 +133,37 @@ a {
   }
   .ags {
       background-image: url(../imagenes/SKWFY5O2ZFEURPVX3GBTZVFUO4.jpg);
-      background-size: cover;
+      @extend .backgroundTemplate;
       background-position: center;
   }
+    
+  .backgroundTemplate {
+    background-size: cover;
+  }
+// MIXIN
+  @mixin titulo ($colorPrimary) {
+    color: $colorPrimary;
+  }
+
+// EXTEND
+  .gallery {
+    @include titulo($colorPrimary);
+    font-size: 30px;
+    text-shadow: 1px 2px 2px black;
+  }
+
+  // MAP
+$rrss: (
+  github: #DD7933,
+  instagram: #C01C7D,
+);
+
+@each $name, $color in $rrss {
+  .#{$name} {
+    background-color: $color;
+    margin: 0 5px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+  }
+}
