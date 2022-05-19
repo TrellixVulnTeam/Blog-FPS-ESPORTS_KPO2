@@ -54,9 +54,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-       // VARIABLE APLICADA A COLOR
-        color:$bgColor 
-        // VARIABLE APLICADA A COLOR
+        color: #f3fb02;
     }
     &__iframe {
       box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.523);
@@ -71,7 +69,7 @@ a {
       @extend .backgroundTemplate;
    }
     &__texto {
-      padding: 3rem;
+      padding: 1rem;
    }
     &__iframe {
       width: 100%;
@@ -84,20 +82,16 @@ a {
       @extend .backgroundTemplate;
       background-position: center;
    }
-    &__texto {
-    padding: 2rem;
-   }
     &__iframe {
       width: 100%;
    }   
     &__frame {
       background-color: rgba(0, 0, 0, 0.301);
-      padding: 2rem;
    }
      }
 
     //  PAGINA JUEGOS
-  .juegos {
+  .val {
     p {
       font-size: 20px;
     }
@@ -106,20 +100,30 @@ a {
       transform: scale(0.7);
      filter: drop-shadow(0 0 10px rgba(254, 254, 254, 0.841));
    }
-    .tarjeta__texto {
-      border-radius: 10px;
-   }
     &__tarjeta {
       background-image: url(../imagenes/Yoru_Killjoy_1920x1080.jpg);
+      background-size: cover;
    }
     &__frame {
-      transform: scale(0.7);
-      
-   }
-  
+      transform: scale(0.1);  
+   }  
+}
+.apx {
+  p {
+    font-size: 20px;
+  }
+  &__tarjeta {
+    background-image: url(../imagenes/newcastle.jpg);
+    background-size: cover;
+    width: 100%;
+  }
+  &__logo{
+    transform: scale(0.5);
+  }
 }
 
   //  PÁGINA E-SPORTS
+  
   .vct {
       background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg);
       @extend .backgroundTemplate;
@@ -152,18 +156,5 @@ a {
     text-shadow: 1px 2px 2px black;
   }
 
-  // MAP
-$rrss: (
-  github: #DD7933,
-  instagram: #C01C7D,
-);
-
-@each $name, $color in $rrss {
-  .#{$name} {
-    background-color: $color;
-    margin: 0 5px;
-    padding: 10px;
-    color: #fff;
-    border-radius: 10px;
-  }
-}
+  // PAGINA NOVEDADES
+ 

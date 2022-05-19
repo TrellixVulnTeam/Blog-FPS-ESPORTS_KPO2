@@ -16,13 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&family=Roboto:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
+<div class="container-fluid bg-dark">
  <body>
-   <div class="container">
    <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Tus juegos y competencias favoritas</a>
+          <a class="navbar-brand" href="../index.html">FPS E-Sports</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,77 +45,81 @@
     </div>
     </nav>
     </header>
-    <main class="row">
-    <section class="juegos" >
-      <div class="card bg-dark text-white juegos__tarjeta">
-        <img src="../imagenes/V_Lockup_Vertical Black.png" class="card-img juego__logo" alt="Valorant">
+  
+    <section class="val" >
+      <div class="card bg-dark text-white val__tarjeta">
+        <img src="../imagenes/V_Lockup_Vertical Black.png" class="card-img" alt="Valorant">
       </div>
+    <img class="col-12 img-fluid" src="../imagenes/Intro_VAL_spa-MX.jpg">
     
-    <div class="juegos__texto">
-      <div class="card bg-danger text-dark mt-5 col-12 text-center tarjeta__texto"><h2> DESAFÍA LOS LÍMITES</h2>
-     <strong><p class="p__uno">Combina tu estilo y experiencia en un escenario global y competitivo. 
-      Tienes 13 rondas para atacar y defender tu lado con armas precisas y habilidades tácticas. 
-      Además, al contar con una sola vida por ronda, tendrás que pensar más rápido que tu oponente 
-      si quieres sobrevivir. Enfréntate a enemigos en los modos competitivo y normal, así como en 
-      Deathmatch y Spike Rush.</p></div>
-
-      <div class="card bg-danger text-dark mt-5 col-12 text-center tarjeta__texto"><h2 class="titulo__dos">LA CREATIVIDAD ES TU MEJOR ARMA</h2>
-     <p class="p__dos">Más allá de las armas y las balas, podrás elegir a un agente dotado de habilidades versátiles, 
+    <div class="row text-center">
+     
+    <div class="col-6">
+     <h2 class="text-primary"> CREATIVIDAD ES TU MEJOR ARMA</h2>
+     <p class="text-white">Más allá de las armas y las balas, podrás elegir a un agente dotado de habilidades versátiles, 
       veloces y letales con las que crearás oportunidades para sobresalir. Ningún agente se jugará igual, 
-      ni ningún momento memorable se verá igual.</p></div>
-
-     <div class="card bg-danger text-dark mt-5 col-12 text-center tarjeta__texto"><h2 class="titulo__tres">PELEA ALREDEDOR DEL MUNDO</h2>
-      <p class="p__tres">Cada mapa es un campo de batalla para demostrar tu pensamiento creativo. Están diseñados especialmente 
-      para estrategias de equipo, jugadas espectaculares y momentos para remontar. Haz la jugada que otros imitarán 
-      en el futuro.</p> </div></strong>
-      <div class="d-grid juegos__boton-val">
-       <a href="https://playvalorant.com/es-mx/maps/"><button class="btn btn-secondary text-center mt-2" type="button"><h3>Conoce los mapas</h3></button></a>
-      </div>
-    
-   <div class="row">
-      <div class="juegos__frame mt-3 col-8"><video  src="../videos/LET’S GO. _ Episode 4_ Act II Kickoff - VALORANT (1080p_30fps_AV1-128kbit_AAC).mp4" 
-        controls autoplay muted></video>
-      </div>
+      ni ningún momento memorable se verá igual.</p>
     </div>
+      <a class="col-6 mt-5 text-center" href="https://playvalorant.com/es-mx/agents/"><button class="btn btn-primary border-dark" 
+        type="button"><h3>Descubre los agentes</h3></button></a>
       
-    <a class="boton" href="https://playvalorant.com/es-mx/download/" target="_blank">Descarga VALORANT</a>
+    <div class="col-6">
+     <h2 class="text-danger">PELEA ALREDEDOR DEL MUNDO</h2>
+      <p class="text-white">Cada mapa es un campo de batalla para demostrar tu pensamiento creativo. Están diseñados especialmente 
+      para estrategias de equipo, jugadas espectaculares y momentos para remontar. Haz la jugada que otros imitarán 
+      en el futuro.</p>
+    </div>
+     <a class= "col-6 mt-5 text-center" href="https://playvalorant.com/es-mx/maps/"><button class="btn btn-danger border-dark " 
+      type="button"><h3>Conoce los mapas</h3></button></a></div>
+  
+      <div class="text-center mt-5">
+    <a href="https://playvalorant.com/es-mx/download/" target="_blank"><button class="btn btn-warning border-white border-3" 
+      type="button"><h3>Descarga VALORANT</h3></button></a>
+    </div>
  </section>
    
-<section>
-    <div class="apex__conoce"></div>
-    <div class="apex__frame"><h4 class="apex__titulo1">CONOCE A LAS LEYENDAS</h4>
-    <p class="apex__parrafo1">Para llegar a ser una leyenda se necesita sangre fría, talento y mucha suerte. Elige a tu favorita y aprende cómo usar sus habilidades únicas para ayudar a tu pelotón.
-    <a href="https://www.ea.com/es-es/games/apex-legends/about/characters"target="_blank">Ver más</a></p></div>
+<section class="apx">
+  <div class="card bg-dark  text-white mt-5 apx__tarjeta">
+    <img class="apx__logo" src="../imagenes/Apex-Legends-Logo-2019.png" alt="Season 12 Newscastle">
+  </div>
+    <div class="text-white text-center row">
+      <a class="col-6 mt-5 align-self-center" href="https://www.ea.com/es-es/games/apex-legends/about/characters" target="_blank"><button class="btn btn-success border-dark" 
+        type="button"><h3>Las Leyendas</h3></button></a>
+    <div class="col-6">
+    <h2 class="text-success mt-5">CONOCE A LAS LEYENDAS</h2>
+    <p>Para llegar a ser una leyenda se necesita sangre fría, talento y mucha suerte. Elige a tu favorita y aprende cómo usar sus habilidades únicas para ayudar a tu pelotón. </p>
+     </div>
     
-    <div class="apex__descubre">
-       <h4 class="apex__titulo2">DESCUBRE LOS MAPAS DE LOS JUEGOS APEX</h4>
-      <p class="apex__parrafo2">Cañón de los Reyes, Fin del mundo y Olympus. Has luchado y has muerto en ellos, pero ¿sabes por qué se eligieron? 
+    <div class="col-6 mt-5 text-white">
+       <h2 class="text-info">DESCUBRE LOS MAPAS DE LOS JUEGOS APEX</h2>
+      <p class="apx__parrafo2">Cañón de los Reyes, Fin del mundo y Olympus. Has luchado y has muerto en ellos, pero ¿sabes por qué se eligieron? 
      Hammond Robotics y el Sindicato de mercenarios parecen intervenir en todo lo que da forma al destino de la Tierras Salvajes... 
-     Obtén más información sobre los mapas en los que se celebran los Juegos Apex.
-     <a href="https://www.ea.com/es-es/games/apex-legends/maps#battle-royale"target="_blank">Ver más</a></p></div>
-
-     <div class="apex__controla"><h4 class="apex__titulo3">CONTROLA LA FURIA DEMENCIAL</h4>
-      <p class="apex__parrafo3">Hazte con el nuevo pase de batalla y desbloquea conjuntos de elementos cosméticos, packs de música, 
-      pantallas de carga y <a href="https://www.ea.com/es-es/games/apex-legends/battle-pass" target="_blank">más</a></p>
-      
-      
-      <iframe class="iframeapex" width="560" height="315" src="https://www.youtube.com/embed/gZVpiWUctLo" title="YouTube video player" 
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <a class="boton__apex" href="https://www.ea.com/es-es/games/apex-legends/play-now-for-free" target="_blank">Descarga el juego</a>
+     Obtén más información sobre los mapas en los que se celebran los Juegos Apex.</p>
     </div>
+     <a class="col-6 mt-5 align-self-center" href="https://www.ea.com/es-es/games/apex-legends/maps#battle-royale" target="_blank"><button class="btn btn-info border-dark" 
+      type="button"><h3>Los Mapas</h3></button></a>
+
+     <div class=" text-white"><h2 class="bg-warning mt-5 p-2 text-black">NO DEJES QUE NADIE CAIGA EN SALVADORES</h2>
+      <p>Hazte con el nuevo pase de batalla para desbloquear más de 100 objetos nuevos y <a href="https://www.ea.com/es-es/games/apex-legends/battle-pass" target="_blank">más</a></p>
+      </div>
+      </div>
+      <iframe class="iframeapex container-fluid" width="560" height="315" src="https://www.youtube.com/embed/5ISMishWUlE" title="YouTube video player" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      <div class="mt-3">
+      <a href="https://www.ea.com/es-es/games/apex-legends/play-now-for-free" target="_blank">
+        <h2 class="bg-warning text-black text-center p-1">Descarga el juego</h2></a>
+      </div>
     </p>
    
  </section>
 </main>
 
-</body>
-
-
 <footer class="row justify-content-center bg-danger">
-<div class="col-md-4 m-auto text-center">
+<div class="col-mt-5  text-center">
   <p><strong> All rights reserved© WEBDEVRL</strong></p>
-  <a href="#Top">Go Top</a>
 </div>
 </footer>
+</body>
 </div>
 </html>

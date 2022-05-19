@@ -41,7 +41,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1c3587; }
+  color: #f3fb02; }
 
 .apex__iframe {
   box-shadow: 0px 4px 1px 1px rgba(0, 0, 0, 0.523); }
@@ -50,7 +50,7 @@ a {
   background-image: url(../imagenes/100832.jpg); }
 
 .champions__texto {
-  padding: 3rem; }
+  padding: 1rem; }
 
 .champions__iframe {
   width: 100%; }
@@ -59,31 +59,36 @@ a {
   background-image: url(../imagenes/apex-legends-pre-season-invitational-feature.jpg);
   background-position: center; }
 
-.algs__texto {
-  padding: 2rem; }
-
 .algs__iframe {
   width: 100%; }
 
 .algs__frame {
-  background-color: rgba(0, 0, 0, 0.301);
-  padding: 2rem; }
+  background-color: rgba(0, 0, 0, 0.301); }
 
-.juegos p {
+.val p {
   font-size: 20px; }
 
-.juegos img {
+.val img {
   transform: scale(0.7);
   filter: drop-shadow(0 0 10px rgba(254, 254, 254, 0.841)); }
 
-.juegos .tarjeta__texto {
-  border-radius: 10px; }
+.val__tarjeta {
+  background-image: url(../imagenes/Yoru_Killjoy_1920x1080.jpg);
+  background-size: cover; }
 
-.juegos__tarjeta {
-  background-image: url(../imagenes/Yoru_Killjoy_1920x1080.jpg); }
+.val__frame {
+  transform: scale(0.1); }
 
-.juegos__frame {
-  transform: scale(0.7); }
+.apx p {
+  font-size: 20px; }
+
+.apx__tarjeta {
+  background-image: url(../imagenes/newcastle.jpg);
+  background-size: cover;
+  width: 100%; }
+
+.apx__logo {
+  transform: scale(0.5); }
 
 .vct {
   background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg); }
@@ -106,17 +111,3 @@ ul {
   color: #EE584B;
   font-size: 30px;
   text-shadow: 1px 2px 2px black; }
-
-.github {
-  background-color: #DD7933;
-  margin: 0 5px;
-  padding: 10px;
-  color: #fff;
-  border-radius: 10px; }
-
-.instagram {
-  background-color: #C01C7D;
-  margin: 0 5px;
-  padding: 10px;
-  color: #fff;
-  border-radius: 10px; }
