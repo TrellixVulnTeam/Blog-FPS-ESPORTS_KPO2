@@ -92,9 +92,8 @@ a {
 
 .vct {
   background-image: url(../imagenes/ValorantWallpaper_johnslatte2.jpg); }
-
-.vct__iframe {
-  display: flex; }
+  .vct__iframe {
+    display: flex; }
 
 ul {
   list-style: none;
