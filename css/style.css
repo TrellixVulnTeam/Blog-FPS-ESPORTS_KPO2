@@ -110,3 +110,8 @@ ul {
   color: #EE584B;
   font-size: 30px;
   text-shadow: 1px 2px 2px black; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
